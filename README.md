@@ -6,7 +6,7 @@
 
 <br/>
 
-#### 1. Overview [[Paper]](https://arxiv.org/) [[PyTorch Implementation]](https://github.com/aiff22/PyNET-PyTorch) [[Project Webpage]](http://people.ee.ethz.ch/~ihnatova/pynet.html)
+#### 1. Overview [[Paper]](https://arxiv.org/pdf/2002.05509.pdf) [[PyTorch Implementation]](https://github.com/aiff22/PyNET-PyTorch) [[Project Webpage]](http://people.ee.ethz.ch/~ihnatova/pynet.html)
 
 This repository provides the implementation of the RAW-to-RGB mapping approach and PyNET CNN presented in [this paper](https://arxiv.org/). The model is trained to convert **RAW Bayer data** obtained directly from mobile camera sensor into photos captured with a professional Canon 5D DSLR camera, thus replacing the entire hand-crafted ISP camera pipeline. The provided pre-trained PyNET model can be used to generate full-resolution **12MP photos** from RAW (DNG) image files captured using the Sony Exmor IMX380 camera sensor. More visual results of this approach for the Huawei P20 and BlackBerry KeyOne smartphones can be found [here](http://people.ee.ethz.ch/~ihnatova/pynet.html#demo).
 
@@ -153,11 +153,11 @@ The code is released for academic research use only.
 ```
 @article{ignatov2020replacing,
   title={Replacing Mobile Camera ISP with a Single Deep Learning Model},
-  author={Ignatov, Andrey and Timofte, Radu and Van Gool, Luc},
+  author={Ignatov, Andrey and Van Gool, Luc and Timofte, Radu},
+  journal={arXiv preprint arXiv:2002.05509},
   year={2020}
 }
 ```
-
 <br/>
 
 #### 12. Any further questions?
