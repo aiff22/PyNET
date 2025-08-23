@@ -2,13 +2,13 @@
 
 <br/>
 
-<img src="http://people.ee.ethz.ch/~ihnatova/assets/img/pynet/pynet_teaser.jpg"/>
+<img src="https://aiff22.github.io/assets/img/pynet/pynet_teaser.jpg"/>
 
 <br/>
 
-#### 1. Overview [[Paper]](https://arxiv.org/pdf/2002.05509.pdf) [[PyTorch Implementation]](https://github.com/aiff22/PyNET-PyTorch) [[Project Webpage]](http://people.ee.ethz.ch/~ihnatova/pynet.html)
+#### 1. Overview [[Paper]](https://arxiv.org/pdf/2002.05509.pdf) [[PyTorch Implementation]](https://github.com/aiff22/PyNET-PyTorch) [[Project Webpage]](https://aiff22.github.io/pynet.html)
 
-This repository provides the implementation of the RAW-to-RGB mapping approach and PyNET CNN presented in [this paper](https://arxiv.org/). The model is trained to convert **RAW Bayer data** obtained directly from mobile camera sensor into photos captured with a professional Canon 5D DSLR camera, thus replacing the entire hand-crafted ISP camera pipeline. The provided pre-trained PyNET model can be used to generate full-resolution **12MP photos** from RAW (DNG) image files captured using the Sony Exmor IMX380 camera sensor. More visual results of this approach for the Huawei P20 and BlackBerry KeyOne smartphones can be found [here](http://people.ee.ethz.ch/~ihnatova/pynet.html#demo).
+This repository provides the implementation of the RAW-to-RGB mapping approach and PyNET CNN presented in [this paper](https://arxiv.org/pdf/2002.05509.pdf). The model is trained to convert **RAW Bayer data** obtained directly from mobile camera sensor into photos captured with a professional Canon 5D DSLR camera, thus replacing the entire hand-crafted ISP camera pipeline. The provided pre-trained PyNET model can be used to generate full-resolution **12MP photos** from RAW (DNG) image files captured using the Sony Exmor IMX380 camera sensor. More visual results of this approach for the Huawei P20 and BlackBerry KeyOne smartphones can be found [here](https://aiff22.github.io/pynet.html#demo).
 
 <br/>
 
@@ -22,9 +22,9 @@ This repository provides the implementation of the RAW-to-RGB mapping approach a
 
 #### 3. First steps
 
-- Download the pre-trained [VGG-19 model](https://polybox.ethz.ch/index.php/s/7z5bHNg5r5a0g7k) <sup>[Mirror](https://drive.google.com/file/d/0BwOLOmqkYj-jMGRwaUR2UjhSNDQ/view?usp=sharing&resourcekey=0-Ff-0HUQsoKJxZ84trhsHpA)</sup> and put it into `vgg_pretrained/` folder.
-- Download the pre-trained [PyNET model](https://drive.google.com/file/d/1txsJaCbeC-Tk53TPlvVk3IPpRw1Ro3BS/view?usp=sharing) and put it into `models/original/` folder.
-- Download [Zurich RAW to RGB mapping dataset](http://people.ee.ethz.ch/~ihnatova/pynet.html#dataset) and extract it into `raw_images/` folder.    
+- Download the pre-trained [VGG-19 model](https://download.ai-benchmark.com/s/CCDiWM2sE25x2dW/download/imagenet-vgg-verydeep-19.mat) and put it into `vgg_pretrained/` folder.
+- Download the pre-trained [PyNET model](https://download.ai-benchmark.com/s/C4a3C5WxB8p2my8/download/PyNET_pretrained.zip) and put it into `models/original/` folder.
+- Download [Zurich RAW to RGB mapping dataset](https://aiff22.github.io/pynet.html#dataset) and extract it into `raw_images/` folder.    
   <sub>This folder should contain three subfolders: `train/`, `test/` and `full_resolution/`</sub>
   
   <sub>*Please note that Google Drive has a quota limiting the number of downloads per day. To avoid it, you can login to your Google account and press "Add to My Drive" button instead of a direct download. Please check [this issue](https://github.com/aiff22/PyNET/issues/4) for more information.* </sub>
@@ -36,7 +36,7 @@ This repository provides the implementation of the RAW-to-RGB mapping approach a
 
 <br/>
 
-<img src="http://people.ee.ethz.ch/~ihnatova/assets/img/pynet/pynet_architecture_github.png" alt="drawing" width="1000"/>
+<img src="https://aiff22.github.io/assets/img/pynet/pynet_architecture_github.png" alt="drawing" width="1000"/>
 
 <br/>
 
